@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.a1605476.sharing.OrderActivity">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/text"
+        android:textStyle="bold"
+        android:textColor="#B71C1C"
+        android:textSize="20dp"
+        android:text="Choose item to order--"
+        />
+
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/linear1"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+    <CheckBox
+        android:id="@+id/check1"
+        android:layout_below="@+id/text"
+        android:textColor="#F44336"
+        android:onClick="check_first"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:text="Diavolo"/>
+
+    <ImageButton
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:id="@+id/first_plus"
+        android:background="@drawable/round_button"
+        android:src="@drawable/fab_plus"
+        android:layout_below="@+id/text"
+        android:layout_height="wrap_content"
+
+        />
+
+   <TextView
+       android:layout_height="wrap_content"
+       android:layout_width="0dp"
+       android:layout_weight="1"
+       android:layout_below="@+id/text"
+       android:id="@+id/first_text"
+       android:textColor="#000000"
+       android:text="0"
+       android:gravity="center"
+
+      />
+
+    <ImageButton
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_below="@+id/text"
+        android:background="@drawable/round_button"
+        android:src="@drawable/fab_minus"
+        android:id="@+id/first_minus"
+        android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:id="@+id/linear2"
+        android:layout_below="@+id/linear1"
+        android:orientation="horizontal">
+
+        <CheckBox
+        android:id="@+id/check2"
+        android:layout_below="@+id/check1"
+        android:onClick="check_first"
+        android:textColor="#F44336"
+        android:layout_width="0dp"
+
+            android:layout_weight="3"
+        android:layout_height="wrap_content"
+        android:text="Funghi"/>
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/round_button"
+            android:src="@drawable/fab_plus"
+            android:id="@+id/second_plus"
+            android:layout_height="wrap_content"
+
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:id="@+id/second_text"
+            android:text="0"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:id="@+id/second_minus"
+            android:background="@drawable/round_button"
+            android:src="@drawable/fab_minus"
+            android:layout_height="wrap_content"/>
+        />
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_below="@+id/linear2"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/linear3"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+    <CheckBox
+        android:id="@+id/check3"
+
+        android:textColor="#F44336"
+        android:onClick="check_first"
+        android:layout_width="0dp"
+        android:layout_weight="3"
+        android:layout_height="wrap_content"
+        android:text="Spraghetti Bolognese"
+        />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/round_button"
+            android:src="@drawable/fab_plus"
+            android:id="@+id/third_plus"
+            android:layout_height="wrap_content"
+
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:id="@+id/third_text"
+            android:text="0"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:id="@+id/third_minus"
+            android:background="@drawable/round_button"
+            android:src="@drawable/fab_minus"
+            android:layout_height="wrap_content"/>
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_below="@+id/linear3"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/linear4"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+    <CheckBox
+        android:id="@+id/check4"
+        android:textColor="#F44336"
+        android:onClick="check_first"
+        android:layout_width="0dp"
+        android:layout_weight="3"
+        android:layout_height="wrap_content"
+        android:text="Lasagne"/>
+
+    <ImageButton
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:id="@+id/fourth_plus"
+        android:background="@drawable/round_button"
+        android:src="@drawable/fab_plus"
+        android:layout_height="wrap_content"
+
+        />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:id="@+id/fourth_text"
+        android:text="0"
+        android:textColor="#000000"
+        android:gravity="center"
+
+        android:layout_height="wrap_content"
+        />
+
+    <ImageButton
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:id="@+id/fourth_minus"
+        android:background="@drawable/round_button"
+        android:src="@drawable/fab_minus"
+        android:layout_height="wrap_content"/>
+        />
+</LinearLayout>>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+
+        android:layout_below="@+id/linear4"
+        android:id="@+id/linearLayout"
+        >
+
+        <TextView
+            android:id="@+id/txt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Amount"
+            android:textColor=" #C62828"
+            android:textSize="25dp" />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:text="$"
+            android:textColor=" #C62828"
+            android:id="@+id/textPrice"
+             />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/linearLayout"
+        android:layout_marginTop="25dp"
+        android:text="Pay Now"
+        android:textAllCaps="false"
+        android:textColor="#E57373" />
+</RelativeLayout>
+</android.support.v4.widget.NestedScrollView>

@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Food</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_top">Top fragment</string>>
+
+    <string-array name="pizzas">
+        <item>Diavolo</item>
+        <item>Funghi</item>
+    </string-array>
+
+    <string name="welcome_text">We offer a range of freshly baked pizza and pasta dishes.Want to try more?</string>
+
+    <string-array name="pasta">
+        <item>Spagahetti Bolognese</item>
+        <item>Lasagne</item>
+    </string-array>
+
+    <string-array name="stores">
+        <item>Cambridge</item>
+        <item>Sebastopol</item>
+    </string-array>
+
+    <string-array name="orders">
+        <item>Diavolo</item>
+        <item>Funghi</item>
+        <item>Spagahetti Bolognese</item>
+        <item>Lasagne</item>
+    </string-array>>
+
+    <string-array name="titles">
+        <item>Home</item>
+        <item>pizzas</item>
+        <item>pasta</item>
+
+
+    </string-array>
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+
+</resources>
